@@ -1,14 +1,26 @@
 body {
+    width: 100%;
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
     color: #333;
-    max-width: 600px;
     margin: auto;
     padding: 20px;
 }
+
+header{
+    width: 60%;
+    margin: 0 auto;
+}
+
 h1 {
     color: rgb(71, 20, 200);
 }
+
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -24,4 +36,15 @@ li {
 }
 li input[type="checkbox"] {
     margin-right: 10px;
+}
+
+footer{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #c1c0ba;
+    height: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
